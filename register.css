@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.formWrap {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+
+/* code for left sectin of form */
+.formDiv {
+    width: 50%;
+    padding: 8%;
+    position: relative;
+    background-color: #301934;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+    /* create account*/
+    .formDiv h2 {
+        color: green;
+        margin-top: -25px;
+    }
+
+/* code for right sectin of the registration form */
+.guide {
+    width: 100%;
+    height: 500px;
+    padding: 0px;
+}
+
+
+
+
+.social{
+    display:flex; 
+    /*default for display is row*/
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: lavender;
+    margin: 5px;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.link{
+    text-decoration: underline;
+    color: white;
+    font-size:small;
+}
+
+.text {
+    font-size: small;
+    color:white;
+}
+
+.or {
+    width: 10%;
+    margin:auto;
+    background-color: #355c7d;
+    position: relative;
+    padding-top: -10px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* code for form input fields */
+.formGroup {
+    width: 100%;
+    position: relative;
+}
+
+    .formGroup input {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-style: none;
+        padding-left: 30px ;
+    }
+
+
+    /* Code for Icones inside html form input */
+    .formGroup i {
+        position: absolute;
+        color: grey;
+        font-size: smaller;
+        margin: 10px !important;
+    }
+
+
+input::placeholder {
+    position: relative;
+    left: 10px;
+}
+
+input:focus {
+    border-color: red;
+}
+
+#checkBox {
+    width: 100%;
+    margin-top: 2px;
+    float:left;
+}
+
+.btn {
+    width: 70%;
+    padding: 15px;
+    background-color: green;
+    margin-top: 15px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+}
+
+    /* CSS mouse hover efects */
+    .btn:hover, .btn2:hover, .icon:hover {
+        background-color: rgb(7, 80, 35);
+        color: whitesmoke;
+    }
+.facebook:hover {
+    background-color: blue;
+}
+.twitter:hover {
+    background-color: #1DA1F2;
+}
+.instagram:hover {
+    background-color: #8a3ab9;
+}

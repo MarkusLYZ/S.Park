@@ -1,0 +1,32 @@
+.t
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+.td
+{
+    padding-right: 50px;
+}
+.th
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+thead { 
+    text-align: left;
+    font-size: large;
+} 
+html { 
+    font-size: 40px;
+} 
+.tr
+{
+    font-size: 1000px;
+}
+h1
+{
+    font-size:30px;
+}
